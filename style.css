@@ -1,0 +1,29 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    background-color: orangered;
+    text-align: center;
+    top: 0;
+}
+
+.buttonlist {
+    text-align: center;
+}
+
+#soundlist {
+    color: #ffffff;
+}
+

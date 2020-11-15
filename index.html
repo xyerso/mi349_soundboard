@@ -7,38 +7,31 @@
 </head>
 <body>
 
-<h1>
+<h1 id="soundlist">
     Sound List
 </h1>
 
-<section class="buttonlist">
-    <div>
-        
-            <button onclick="playAudio">
-                Alarm
-                <audio id="alarm1" src="alarm_beep.wav"></audio>
-            </button>
-       
-    </div> 
+<div class="buttonlist">
+    <img src="alarm.jpg" alt="image of alarm">
+        <button onclick="playAlarm()">
+            Alarm
+            <audio id="alarm1" src="alarm_beep.wav"></audio>
+        </button>
    
-    <div>
-       <h2>
-           <button onclick="playAudio">
-               Carhorn
-               <audio id="carhorn1" src="car_horn_x.wav"></audio>
-           </button>
-       </h2>
-   </div> 
-   
-   <div>
-       <h2>
-           <button onclick="playAudio">
-               Ocean
-               <audio id="ocean1" src="ocean.wav"></audio>
-           </button>
-       </h2>
-   </div>
-</section>
+
+    <img src="carhorn.jpg" alt="image of carhorn">
+       <button onclick="playCar()">
+           Carhorn
+           <audio id="carhorn1" src="car_horn_x.wav"></audio>
+       </button>
+
+
+   <img src="ocean.jpg" alt="image of ocean">
+       <button onclick="playOcean()">
+           Ocean
+           <audio id="ocean1" src="ocean.wav"></audio>
+       </button>
+</div>
 
 <script src="soundboard.js"></script>
 

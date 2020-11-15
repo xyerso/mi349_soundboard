@@ -5,14 +5,14 @@
 
  var o = document.getElementById("ocean1");
 
-function playAudio() {
+function playAlarm() {
     a.play();
 }
 
-function playAudio() {
+function playCar() {
    c.play();
 }
 
-function playAudio() {
+function playOcean() {
     o.play();
 }
